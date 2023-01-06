@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task1\\Sem6homework.csproj": {}
+    "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task2\\task2.csproj": {}
   },
   "projects": {
-    "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task1\\Sem6homework.csproj": {
+    "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task2\\task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task1\\Sem6homework.csproj",
-        "projectName": "Sem6homework",
-        "projectPath": "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task1\\Sem6homework.csproj",
+        "projectUniqueName": "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task2\\task2.csproj",
+        "projectName": "task2",
+        "projectPath": "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task2\\task2.csproj",
         "packagesPath": "C:\\Users\\Muxammadali\\.nuget\\packages\\",
-        "outputPath": "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task1\\obj\\",
+        "outputPath": "D:\\vscode\\projects\\Введение в языки программирования\\Sem\\homework\\task2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muxammadali\\AppData\\Roaming\\NuGet\\NuGet.Config"
