@@ -25,17 +25,19 @@ matrix[2, 3] = 4;
 
 void AverageValue(int[,] matrix)
 {
-    int length = matrix.GetLength(1);
-    int sum = 0;
+    int length = matrix.GetLength(0);
+    double sum = 0;
     double average = 0;
     for (int i = 0; i < matrix.GetLength(1); i++)
     {
         for (int j = 0; j < matrix.GetLength(0); j++)
         {
-            sum = sum + matrix[i, j];
+            sum = sum + matrix[j, i];
         }
         average = sum / length;
-        Console.WriteLine(average);
+        Console.WriteLine(Math.Round(average, 2));
+        average = 0;
+        sum = 0;
     }
 }
 AverageValue(matrix);
