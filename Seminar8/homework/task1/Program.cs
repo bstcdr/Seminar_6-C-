@@ -26,16 +26,34 @@ matrix[2, 3] = 4;
 
 int[,] SortArray(int[,] matr)
 {
-    int max = -1;
+    int max = matr[0, 0];
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            
-        }
+            for (int l = j + 1; l < matr.GetLength(1); l++)
+            {
+                if (matr[i, j] < matr[i, l])
+                {
+                int temp = matr[i, j];
+                matr[i, j] = matr[i, l];
+                matr[i, l] = temp;
+                }
+            }
+        }     
     }
-
     return matr;
 }
+void PrintArray(int[,] matr)
+{
+    for (int i = 0; i < matr.GetLength(0); i++)
+    {
+        for (int j = 0; j < matr.GetLength(1); j++)
+        {
+            Console.Write($"{matr[i, j]} ");
+        }
+        Console.WriteLine();
+    }
+}
 
-SortArray(matrix);
+PrintArray(SortArray(matrix));
